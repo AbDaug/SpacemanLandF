@@ -3,3 +3,5 @@
 * ***audio*** folder contains Reaper project, source sound files, and generated sound files
 
 * ***documentation*** folder contains project proposal document and sound asset spreadsheet
+
+* everything else involves the game files and gitignores
