@@ -4,4 +4,6 @@
 
 * ***documentation*** folder contains project proposal document and sound asset spreadsheet
 
+* ***FMOD/gamename*** contains FMOD project
+
 * everything else involves the game files and gitignores
