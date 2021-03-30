@@ -675,6 +675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260590901}
   - component: {fileID: 260590903}
+  - component: {fileID: 260590902}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -696,6 +697,20 @@ Transform:
   m_Father: {fileID: 1954235529}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &260590902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260590900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!20 &260590903
 Camera:
   m_ObjectHideFlags: 0
@@ -1645,6 +1660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tractorbeammat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4b277d3f86628c4499931c1bbf8fab69,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b277d3f86628c4499931c1bbf8fab69, type: 3}
@@ -2867,6 +2887,7 @@ GameObject:
   - component: {fileID: 1896988842}
   - component: {fileID: 1896988841}
   - component: {fileID: 1896988840}
+  - component: {fileID: 1896988845}
   m_Layer: 0
   m_Name: LowPolySpaceman (1)
   m_TagString: Untagged
@@ -2969,6 +2990,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1896988845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896988839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/TestEvent
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1906157350
 GameObject:
   m_ObjectHideFlags: 0
