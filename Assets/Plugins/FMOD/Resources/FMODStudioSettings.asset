@@ -344,8 +344,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../FMOD Tutorial/FMOD/FMOD.fspro
-  sourceBankPath: ..\FMOD Tutorial\FMOD\Build
+  sourceProjectPath: FMOD/SpacemanLandFBuild/SpacemanLandFBuild.fspro
+  sourceBankPath: FMOD\SpacemanLandFBuild\Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -366,8 +366,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
