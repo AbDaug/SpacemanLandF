@@ -7,3 +7,6 @@
 * ***Game/FMOD/gamename*** contains FMOD project
 
 * ***Game*** contains game project files
+
+*Bugs List
+ - FMOD Bank seems to need to be rebuilt when project opened from a zip file. No idea why.
