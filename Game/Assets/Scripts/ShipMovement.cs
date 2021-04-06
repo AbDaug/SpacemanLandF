@@ -30,9 +30,6 @@ public class ShipMovement : MonoBehaviour
 
     void Update()
     {
-        //play a sound when mouse is clicked (possibility for shooting) OFF FOR NOW
-       /* if (Input.GetMouseButtonDown(0))
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/attack"); */
 
         //rotate the ship according to the mouse placement
         lookInput.x = Input.mousePosition.x;   

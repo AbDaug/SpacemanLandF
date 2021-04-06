@@ -1,4 +1,5 @@
 Folder containing asset creation work
-source audio files
+Source audio files
 Reaper Project
+Sample Reaper sound files
 Generated Output files

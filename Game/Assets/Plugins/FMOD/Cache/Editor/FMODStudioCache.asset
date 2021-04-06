@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7747197896880885274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ShipTilt
+  m_EditorClassIdentifier: 
+  Path: event:/ShipTilt
+  guid: fee3f40123a71e4a88e7c516ed01695b
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7100492918263441637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +46,73 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-6404813436033899547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestEvent
+  m_EditorClassIdentifier: 
+  Path: event:/TestEvent
+  guid: cc3bbda6f347d64ab2e21553ea0d325d
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5925343908866248776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AstronautCollide
+  m_EditorClassIdentifier: 
+  Path: event:/AstronautCollide
+  guid: cc3bbda6f347d64ab2e21553ea0d325d
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5879043736424218517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637532590714362089
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 804
+  Exists: 1
 --- !u!114 &-5510216633307416953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,7 +147,7 @@ MonoBehaviour:
   Path: FMODnew/SpacemanLandFBuild/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637527017113994207
+  lastModified: 637532587396644457
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -116,16 +206,17 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2961703193128749142}
-  - {fileID: -4171245290742696434}
+  - {fileID: -5879043736424218517}
+  - {fileID: 1715345750598529785}
   EditorEvents:
-  - {fileID: 495253648710067885}
+  - {fileID: -5925343908866248776}
+  - {fileID: -7747197896880885274}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4171245290742696434}
+  - {fileID: 1715345750598529785}
   StringsBanks:
-  - {fileID: 2961703193128749142}
-  stringsBankWriteTime: 637527017114061298
+  - {fileID: -5879043736424218517}
+  stringsBankWriteTime: 637532590714362089
   cacheVersion: 6
 --- !u!114 &495253648710067885
 MonoBehaviour:
@@ -140,6 +231,48 @@ MonoBehaviour:
   m_Name: event:/TestEvent
   m_EditorClassIdentifier: 
   Path: event:/TestEvent
+  guid: cc3bbda6f347d64ab2e21553ea0d325d
+  Banks:
+  - {fileID: -4171245290742696434}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1715345750598529785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637532590714352113
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2161233372045984483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AstronautCollide
+  m_EditorClassIdentifier: 
+  Path: event:/AstronautCollide
   guid: cc3bbda6f347d64ab2e21553ea0d325d
   Banks:
   - {fileID: -4171245290742696434}
@@ -211,11 +344,11 @@ MonoBehaviour:
   Path: FMODnew/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637527017114061298
+  lastModified: 637532587396654434
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 746
+    Value: 754
   Exists: 1
 --- !u!114 &4544138337040132622
 MonoBehaviour:
