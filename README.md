@@ -2,7 +2,7 @@
  
 * ***audio*** folder contains Reaper project, source sound files, and generated sound files
 
-* ***documentation*** folder contains project proposal document and sound asset spreadsheet
+* ***documentation*** folder contains all necessary documentation for this project
 
 * ***Game/FMOD/gamename*** contains FMOD project
 
