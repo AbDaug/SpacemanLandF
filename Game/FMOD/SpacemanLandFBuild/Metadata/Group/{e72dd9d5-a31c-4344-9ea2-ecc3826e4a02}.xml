@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{e72dd9d5-a31c-4344-9ea2-ecc3826e4a02}">
+		<property name="name">
+			<value>AstronautSFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e9ccf38c-7864-40cd-b679-73a1eee61207}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0392f024-2d75-4c74-8835-df22284ff3a1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d0a7b367-c9a7-4733-9c72-501cd7b2bdb8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e9ccf38c-7864-40cd-b679-73a1eee61207}">
+		<relationship name="effects">
+			<destination>{a2f95283-703b-4711-ab3d-1bdebb702b1d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0392f024-2d75-4c74-8835-df22284ff3a1}" />
+	<object class="MixerBusFader" id="{a2f95283-703b-4711-ab3d-1bdebb702b1d}" />
+</objects>
