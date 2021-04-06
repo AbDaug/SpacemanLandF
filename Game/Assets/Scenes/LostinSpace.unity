@@ -264,6 +264,7 @@ GameObject:
   - component: {fileID: 45402443}
   - component: {fileID: 45402442}
   - component: {fileID: 45402441}
+  - component: {fileID: 45402446}
   m_Layer: 0
   m_Name: LowPolySpaceman (4)
   m_TagString: Untagged
@@ -366,6 +367,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &45402446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45402440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &65639090
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +495,7 @@ GameObject:
   - component: {fileID: 109960382}
   - component: {fileID: 109960381}
   - component: {fileID: 109960380}
+  - component: {fileID: 109960385}
   m_Layer: 0
   m_Name: LowPolySpaceman (3)
   m_TagString: Untagged
@@ -573,6 +598,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109960385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109960379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &248130825
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +815,7 @@ GameObject:
   - component: {fileID: 429691091}
   - component: {fileID: 429691090}
   - component: {fileID: 429691089}
+  - component: {fileID: 429691094}
   m_Layer: 0
   m_Name: LowPolySpaceman (2)
   m_TagString: Untagged
@@ -869,6 +918,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &429691094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429691088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &454517344
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +954,7 @@ GameObject:
   - component: {fileID: 454517347}
   - component: {fileID: 454517346}
   - component: {fileID: 454517345}
+  - component: {fileID: 454517350}
   m_Layer: 0
   m_Name: LowPolySpaceman (5)
   m_TagString: Untagged
@@ -984,6 +1057,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &454517350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454517344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &525209406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2119,7 @@ GameObject:
   - component: {fileID: 1121490814}
   - component: {fileID: 1121490813}
   - component: {fileID: 1121490812}
+  - component: {fileID: 1121490817}
   m_Layer: 0
   m_Name: LowPolySpaceman (6)
   m_TagString: Untagged
@@ -2125,6 +2222,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1121490817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121490811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1176865185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2258,7 @@ GameObject:
   - component: {fileID: 1176865188}
   - component: {fileID: 1176865187}
   - component: {fileID: 1176865186}
+  - component: {fileID: 1176865191}
   m_Layer: 0
   m_Name: LowPolySpaceman
   m_TagString: Untagged
@@ -2240,6 +2361,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176865191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176865185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/AstronautCollide
+  PlayEvent: 7
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1189002471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3301,9 +3445,9 @@ GameObject:
   - component: {fileID: 1954235528}
   - component: {fileID: 1954235527}
   - component: {fileID: 1954235525}
+  - component: {fileID: 1954235531}
   - component: {fileID: 1954235526}
   - component: {fileID: 1954235530}
-  - component: {fileID: 1954235531}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -3434,7 +3578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62971fa14dc644949b2a075eb953027d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventPath: event:/ShipTilt
+  tiltPlay: event:/ShipTilt
+  forwardPlay: event:/ShipForward
 --- !u!4 &543450652875609394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b277d3f86628c4499931c1bbf8fab69,
