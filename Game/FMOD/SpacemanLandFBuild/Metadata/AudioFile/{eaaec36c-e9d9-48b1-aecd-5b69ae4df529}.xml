@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{eaaec36c-e9d9-48b1-aecd-5b69ae4df529}">
+		<property name="assetPath">
+			<value>Dialog/AstroDistressCall1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.4719727891156462</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed0e1d17-8fa1-4122-9733-13168f1ef5fc}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{8869eb61-a7ef-4c8c-8669-d61b3be9d000}">
 		<property name="assetPath">
-			<value>CollectAstronaut.wav</value>
+			<value>SFX/CollectAstronaut.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

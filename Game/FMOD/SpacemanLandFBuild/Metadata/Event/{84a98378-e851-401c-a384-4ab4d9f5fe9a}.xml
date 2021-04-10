@@ -5,7 +5,7 @@
 			<value>EnterPauseMenu</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ae7adcb-4c84-42d8-83d3-03f4ecf5565a}</destination>
@@ -90,7 +90,11 @@
 			<destination>{117862af-5396-41e0-b3f9-b7f3d75b8a7f}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{89570358-2fac-41cf-9ef3-24fb9445da81}" />
+	<object class="MultiSound" id="{89570358-2fac-41cf-9ef3-24fb9445da81}">
+		<relationship name="sounds">
+			<destination>{12626541-4655-46c2-8707-0823b1458034}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{9d2f6079-69d0-4ca2-a073-f80ec75250e4}">
 		<relationship name="effects">
 			<destination>{35a2b517-3e80-4c27-af0d-67c39ef40b7a}</destination>
@@ -114,9 +118,16 @@
 	<object class="MixerBusEffectChain" id="{87f1f22c-83c8-459c-b62b-e85d3c3200cc}">
 		<relationship name="effects">
 			<destination>{f7729be4-0ad6-464c-b484-cd164f9b11d8}</destination>
+			<destination>{f126f341-39ae-48c3-8b16-5e50fca3fff0}</destination>
+			<destination>{a583457c-ab1d-49f3-9991-2cc566a14c13}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e6bda76b-c173-419d-9682-7830bd03da17}" />
+	<object class="SingleSound" id="{12626541-4655-46c2-8707-0823b1458034}">
+		<relationship name="audioFile">
+			<destination>{f6becea1-b70c-4477-baf8-5a42f5131e60}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{35a2b517-3e80-4c27-af0d-67c39ef40b7a}" />
 	<object class="MixerBusEffectChain" id="{ca767326-76aa-4ba3-80cb-5eccdb187c5e}">
 		<relationship name="effects">
@@ -125,5 +136,27 @@
 	</object>
 	<object class="MixerBusPanner" id="{dd17d0d5-e37d-446e-ad68-b612ff3514bc}" />
 	<object class="MixerBusFader" id="{f7729be4-0ad6-464c-b484-cd164f9b11d8}" />
+	<object class="PitchShifterEffect" id="{f126f341-39ae-48c3-8b16-5e50fca3fff0}">
+		<property name="pitch">
+			<value>0.959999979</value>
+		</property>
+		<property name="fftSize">
+			<value>256</value>
+		</property>
+		<property name="overlap">
+			<value>12.4000006</value>
+		</property>
+	</object>
+	<object class="TremoloEffect" id="{a583457c-ab1d-49f3-9991-2cc566a14c13}">
+		<property name="frequency">
+			<value>20</value>
+		</property>
+		<property name="duty">
+			<value>0.719999969</value>
+		</property>
+		<property name="phase">
+			<value>0.560000002</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{55109db5-cba5-4ff8-9534-d874b0af0a8f}" />
 </objects>
