@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -1070,7 +1070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -2235,7 +2235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -3147,7 +3147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
-  Event: event:/AstronautCollide
+  Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0
   AllowFadeout: 1
@@ -3578,8 +3578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62971fa14dc644949b2a075eb953027d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiltPlay: event:/ShipTilt
-  forwardPlay: event:/ShipForward
+  tiltPlay: event:/SFX/Ship/ShipTilt
+  forwardPlay: event:/SFX/Ship/ShipForward
+  backwardPlay: event:/SFX/Ship/ShipBackward
 --- !u!4 &543450652875609394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b277d3f86628c4499931c1bbf8fab69,

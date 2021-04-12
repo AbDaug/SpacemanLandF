@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8819035054871021431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Astronaut/AstronautCollide
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Astronaut/AstronautCollide
+  guid: cc3bbda6f347d64ab2e21553ea0d325d
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7747197896880885274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14,6 +37,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ShipTilt
   guid: fee3f40123a71e4a88e7c516ed01695b
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7739867830358512352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Astronaut/AstronautDistressCall
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Astronaut/AstronautDistressCall
+  guid: 8c85a462dd0d1942a372a69d5f621787
   Banks:
   - {fileID: 1715345750598529785}
   IsStream: 0
@@ -22,6 +67,29 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-7330236376341515287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/PauseMenuAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/PauseMenuAmbience
+  guid: d5969a57e3223e4bb6afe28e552531cd
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &-7100492918263441637
 MonoBehaviour:
@@ -69,6 +137,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6231194037310541992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIUX/StartGame
+  m_EditorClassIdentifier: 
+  Path: event:/UIUX/StartGame
+  guid: f0d34286e3dbbd449ad4234d93f56afc
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6198790143280174333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIUX/EnterPauseMenu
+  m_EditorClassIdentifier: 
+  Path: event:/UIUX/EnterPauseMenu
+  guid: 7883a98451e81c40a3844ab4d9f5fe9a
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-5925343908866248776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,8 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/AstronautCollide
   guid: cc3bbda6f347d64ab2e21553ea0d325d
-  Banks:
-  - {fileID: 1715345750598529785}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -107,11 +220,11 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637533001317789035
+  lastModified: 637538434538242993
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 854
+    Value: 1588
   Exists: 1
 --- !u!114 &-5510216633307416953
 MonoBehaviour:
@@ -132,6 +245,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-4210861129601459421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ship/ShipBackward
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ship/ShipBackward
+  guid: f131cf09480b9e47bec77cc5d1ccd1fc
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
 --- !u!114 &-4171245290742696434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,8 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/ShipForward
   guid: c59be9005f5af44286feb9f58d731ddf
-  Banks:
-  - {fileID: 1715345750598529785}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -232,15 +367,24 @@ MonoBehaviour:
   - {fileID: -5879043736424218517}
   - {fileID: 1715345750598529785}
   EditorEvents:
-  - {fileID: -5925343908866248776}
-  - {fileID: -7747197896880885274}
-  - {fileID: -649823708126582101}
+  - {fileID: 3803147369400403562}
+  - {fileID: 2846338201880738197}
+  - {fileID: 3852327910111409834}
+  - {fileID: -6198790143280174333}
+  - {fileID: -7739867830358512352}
+  - {fileID: 9172328862768551169}
+  - {fileID: 1714028309350296654}
+  - {fileID: -8819035054871021431}
+  - {fileID: -7330236376341515287}
+  - {fileID: -6231194037310541992}
+  - {fileID: -4210861129601459421}
+  - {fileID: 767817897146203416}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1715345750598529785}
   StringsBanks:
   - {fileID: -5879043736424218517}
-  stringsBankWriteTime: 637533001317789035
+  stringsBankWriteTime: 637538434538242993
   cacheVersion: 6
 --- !u!114 &495253648710067885
 MonoBehaviour:
@@ -258,6 +402,29 @@ MonoBehaviour:
   guid: cc3bbda6f347d64ab2e21553ea0d325d
   Banks:
   - {fileID: -4171245290742696434}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &767817897146203416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ship/ShipTilt
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ship/ShipTilt
+  guid: fee3f40123a71e4a88e7c516ed01695b
+  Banks:
+  - {fileID: 1715345750598529785}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -285,6 +452,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &1714028309350296654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/MainMenuTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/MainMenuTheme
+  guid: c9411714ea3f6642bb657ddd28360704
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &1715345750598529785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,7 +490,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637533001317779062
+  lastModified: 637538434538232747
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -343,6 +533,29 @@ MonoBehaviour:
   guid: 64c13b60085a944e88496b3ffb8434fb
   Banks:
   - {fileID: -5510216633307416953}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2846338201880738197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/SpaceAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/SpaceAmbience
+  guid: 45a660329e797443943fe676eaf499d1
+  Banks:
+  - {fileID: 1715345750598529785}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -394,6 +607,52 @@ MonoBehaviour:
   - Name: Desktop
     Value: 754
   Exists: 1
+--- !u!114 &3803147369400403562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UIUX/DialogIntro
+  m_EditorClassIdentifier: 
+  Path: event:/UIUX/DialogIntro
+  guid: 26b525c9a248fc45be531054ab023dc5
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 13637
+--- !u!114 &3852327910111409834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ship/ShipSideways
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ship/ShipSideways
+  guid: 6d1da8c3513a8b4b97963c02e679c870
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4544138337040132622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,3 +672,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &9172328862768551169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ship/ShipForward
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ship/ShipForward
+  guid: c59be9005f5af44286feb9f58d731ddf
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
