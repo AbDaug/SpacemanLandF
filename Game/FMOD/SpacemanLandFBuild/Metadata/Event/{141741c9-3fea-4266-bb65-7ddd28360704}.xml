@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{141741c9-3fea-4266-bb65-7ddd28360704}">
 		<property name="name">
-			<value>MainMenuTheme</value>
+			<value>MainMenuThemeTODO</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

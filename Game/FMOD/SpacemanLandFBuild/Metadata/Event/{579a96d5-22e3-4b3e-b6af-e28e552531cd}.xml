@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{579a96d5-22e3-4b3e-b6af-e28e552531cd}">
 		<property name="name">
-			<value>PauseMenuAmbience</value>
+			<value>PauseMenuAmbienceTODO</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
