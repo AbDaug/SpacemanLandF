@@ -266,11 +266,11 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637539325308918869
+  lastModified: 637541910913865578
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1604
+    Value: 1548
   Exists: 1
 --- !u!114 &-5510216633307416953
 MonoBehaviour:
@@ -446,14 +446,13 @@ MonoBehaviour:
   - {fileID: 767817897146203416}
   - {fileID: -8834614917773429200}
   - {fileID: -9147335745870933795}
-  - {fileID: 3805549179176350501}
-  - {fileID: -2862025609221923881}
+  - {fileID: 1056466561098981525}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1715345750598529785}
   StringsBanks:
   - {fileID: -5879043736424218517}
-  stringsBankWriteTime: 637539325308918869
+  stringsBankWriteTime: 637541910913865578
   cacheVersion: 6
 --- !u!114 &495253648710067885
 MonoBehaviour:
@@ -501,6 +500,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1056466561098981525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/MainMenuTheme
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/MainMenuTheme
+  guid: c9411714ea3f6642bb657ddd28360704
+  Banks:
+  - {fileID: 1715345750598529785}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 11329
 --- !u!114 &1180992361815050736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +581,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637539325308908905
+  lastModified: 637541910913855608
   LoadResult: 0
   FileSizes: []
   Exists: 1

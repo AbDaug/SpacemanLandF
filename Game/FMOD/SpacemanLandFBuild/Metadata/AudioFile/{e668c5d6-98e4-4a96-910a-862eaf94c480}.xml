@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{e668c5d6-98e4-4a96-910a-862eaf94c480}">
+		<property name="assetPath">
+			<value>MainMenuScatter.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed0e1d17-8fa1-4122-9733-13168f1ef5fc}</destination>
+		</relationship>
+	</object>
+</objects>

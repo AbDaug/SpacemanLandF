@@ -22,6 +22,8 @@ public class MainMenuSounds : MonoBehaviour
         //create an instance for the sound event(s)
         startEvent = FMODUnity.RuntimeManager.CreateInstance(startPlay);
         ambienceEvent = FMODUnity.RuntimeManager.CreateInstance(ambiencePlay);
+
+        ambienceEvent.start();
     }
 
 
@@ -45,7 +47,8 @@ public class MainMenuSounds : MonoBehaviour
         //for the ship tilt sound, both Q and E are needed
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            startEvent.start(); //ShipTilt
+            startEvent.start(); //Signifies that the player started the game
+            ambienceEvent.stop(STOP_MODE.IMMEDIATE); //scene change, stop ambience
         }
     }
 }
