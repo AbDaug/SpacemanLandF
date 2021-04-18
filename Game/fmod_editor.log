@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001C45A1E89E8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000244CA0EE518 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,43 +18,76 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 20224
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000001B00FF3B8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004FB7CEF1D8
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFEB14C7B10
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFEB14C7AE0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFEB14C7BE0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFEB14C7CA0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001C4374282F8
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFECF277B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFECF277AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFECF277BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFECF277CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000244BC58E3F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='CollectAstronaut', format=5, channels=2, frequency=48000, lengthbytes=19552, lengthpcm=86551, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.498128.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 20224
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004FB7CEF1D8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFECF277B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFECF277AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFECF277BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFECF277CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000244BC58EC38
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='EnterPauseMenu', format=5, channels=2, frequency=48000, lengthbytes=13056, lengthpcm=24559, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.152184.
 [WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
 [WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
-[LOG] SoundI::release                          : 459977__florianreichelt__soft-wind (000001C4BA114FE8)
-[LOG] SoundI::release                          :     459977__florianreichelt__soft-wind (000001C43710C888)
-[LOG] SoundI::release                          :     459977__florianreichelt__soft-wind (000001C4BA116428)
-[LOG] SoundI::release                          :  (000001C435F183C8)
-[LOG] SoundI::release                          :     EnterPauseMenu (000001C43710E428)
-[LOG] SoundI::release                          :  (000001C46359E828)
-[LOG] SoundI::release                          :     ShipTilt (000001C4BBE40E98)
-[LOG] SoundI::release                          :  (000001C46359E998)
-[LOG] SoundI::release                          :     ShipPing (000001C4BBE3C238)
-[LOG] SoundI::release                          :  (000001C46359E6B8)
-[LOG] SoundI::release                          :     AstroDistressCall1 (000001C4BBE41038)
-[LOG] SoundI::release                          :  (000001C4BB8F0648)
-[LOG] SoundI::release                          :     AstroDistressCall2 (000001C4BBE40CF8)
-[LOG] SoundI::release                          :  (000001C46359E3D8)
-[LOG] SoundI::release                          :     AstroDistressCall3 (000001C4BBE409B8)
-[LOG] SoundI::release                          :  (000001C4BB8F0088)
-[LOG] SoundI::release                          :     AstroDistressCall4 (000001C4BBE40198)
-[LOG] SoundI::release                          :  (000001C46359E548)
-[LOG] SoundI::release                          :     ShipLoop (000001C4BBE404D8)
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[LOG] SoundI::release                          :  (00000244BB89A3F8)
+[LOG] SoundI::release                          :     EnterPauseMenu (00000244CA71F2C8)
+[LOG] SoundI::release                          :  (00000244BC0B4978)
+[LOG] SoundI::release                          :     ShipTilt (0000024436A98738)
+[LOG] SoundI::release                          :  (00000244BC0B2138)
+[LOG] SoundI::release                          :     DialogIntro (0000024436A98598)
+[LOG] SoundI::release                          : 459977__florianreichelt__soft-wind (00000244C9F1BC78)
+[LOG] SoundI::release                          :     459977__florianreichelt__soft-wind (0000024436A97558)
+[LOG] SoundI::release                          :     459977__florianreichelt__soft-wind (00000244C9F1DE38)
+[LOG] SoundI::release                          :  (00000244BC0B36C8)
+[LOG] SoundI::release                          :     AstroDistressCall1 (0000024436A983F8)
+[LOG] SoundI::release                          :  (00000244BC0B39A8)
+[LOG] SoundI::release                          :     AstroDistressCall2 (0000024436A99F98)
+[LOG] SoundI::release                          :  (00000244BC0AFEB8)
+[LOG] SoundI::release                          :     AstroDistressCall3 (0000024436A973B8)
+[LOG] SoundI::release                          :  (00000244BC0B3558)
+[LOG] SoundI::release                          :     AstroDistressCall4 (0000024436A98A78)
+[LOG] SoundI::release                          :  (00000244BC0B0FF8)
+[LOG] SoundI::release                          :     ShipPing (0000024436A9A2D8)
+[LOG] SoundI::release                          :  (00000244BC0B3B18)
+[LOG] SoundI::release                          :     ShipLoop (0000024436A97218)
+[LOG] SoundI::release                          :  (00000244BB899FA8)
+[LOG] SoundI::release                          :     CollectAstronaut (00000244CA71D0A8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -65,3 +98,5 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
