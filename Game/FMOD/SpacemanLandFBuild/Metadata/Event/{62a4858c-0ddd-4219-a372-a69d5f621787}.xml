@@ -126,6 +126,9 @@
 		<property name="name">
 			<value>Looping System</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<property name="playlistMode">
 			<value>2</value>
 		</property>
@@ -146,6 +149,9 @@
 	<object class="MultiSound" id="{c43778c0-83a8-4f64-84ff-baf63c2941c1}">
 		<property name="name">
 			<value>CallAudioContainer</value>
+		</property>
+		<property name="volume">
+			<value>-20</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{fa3d454f-bd29-4d06-bff0-1035cdc542bf}</destination>

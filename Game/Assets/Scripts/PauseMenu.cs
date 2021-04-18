@@ -9,6 +9,10 @@ public class PauseMenu : MonoBehaviour
     public static bool GamePaused = false;
     public GameObject pauseMenuUI;
 
+    //no event instance needed for this one
+    [FMODUnity.EventRef]
+    public string enterPausePlay;
+
     // Update is called once per frame
     void Update()
     {
@@ -38,6 +42,7 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         pauseMenuUI.SetActive(true);
+        FMODUnity.RuntimeManager.PlayOneShot(enterPausePlay, transform.position);
         Cursor.visible = true;
         Time.timeScale = 0f;
         GamePaused = true;

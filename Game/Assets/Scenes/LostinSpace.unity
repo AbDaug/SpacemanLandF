@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 45402442}
   - component: {fileID: 45402441}
   - component: {fileID: 45402446}
+  - component: {fileID: 45402447}
   m_Layer: 0
   m_Name: LowPolySpaceman (4)
   m_TagString: Untagged
@@ -390,6 +391,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &45402447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45402440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &65639090
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +520,7 @@ GameObject:
   - component: {fileID: 109960381}
   - component: {fileID: 109960380}
   - component: {fileID: 109960385}
+  - component: {fileID: 109960386}
   m_Layer: 0
   m_Name: LowPolySpaceman (3)
   m_TagString: Untagged
@@ -621,6 +646,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &109960386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109960379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &248130825
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +864,7 @@ GameObject:
   - component: {fileID: 429691090}
   - component: {fileID: 429691089}
   - component: {fileID: 429691094}
+  - component: {fileID: 429691095}
   m_Layer: 0
   m_Name: LowPolySpaceman (2)
   m_TagString: Untagged
@@ -941,6 +990,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &429691095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429691088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &454517344
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +1027,7 @@ GameObject:
   - component: {fileID: 454517346}
   - component: {fileID: 454517345}
   - component: {fileID: 454517350}
+  - component: {fileID: 454517351}
   m_Layer: 0
   m_Name: LowPolySpaceman (5)
   m_TagString: Untagged
@@ -1080,6 +1153,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &454517351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454517344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &525209406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,6 +1450,7 @@ GameObject:
   - component: {fileID: 745802401}
   - component: {fileID: 745802400}
   - component: {fileID: 745802399}
+  - component: {fileID: 745802405}
   m_Layer: 0
   m_Name: LowPolySpaceman (7)
   m_TagString: Untagged
@@ -1479,6 +1576,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &745802405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745802398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &784464889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1612,7 @@ GameObject:
   - component: {fileID: 784464891}
   - component: {fileID: 784464890}
   - component: {fileID: 784464894}
+  - component: {fileID: 784464895}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1592,6 +1713,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 525209406}
+  enterPausePlay: event:/UIUX/EnterPauseMenu
+--- !u!114 &784464895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784464889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Ambience/SpaceAmbienceTODO
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &789150329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,6 +2588,7 @@ GameObject:
   - component: {fileID: 1121490813}
   - component: {fileID: 1121490812}
   - component: {fileID: 1121490817}
+  - component: {fileID: 1121490818}
   m_Layer: 0
   m_Name: LowPolySpaceman (6)
   m_TagString: Untagged
@@ -2568,6 +2714,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &1121490818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121490811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &1176865185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,6 +2751,7 @@ GameObject:
   - component: {fileID: 1176865187}
   - component: {fileID: 1176865186}
   - component: {fileID: 1176865191}
+  - component: {fileID: 1176865192}
   m_Layer: 0
   m_Name: LowPolySpaceman
   m_TagString: Untagged
@@ -2707,6 +2877,29 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &1176865192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176865185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
 --- !u!1 &1189002471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,6 +3547,7 @@ GameObject:
   - component: {fileID: 1896988842}
   - component: {fileID: 1896988841}
   - component: {fileID: 1896988840}
+  - component: {fileID: 1896988846}
   - component: {fileID: 1896988845}
   m_Layer: 0
   m_Name: LowPolySpaceman (1)
@@ -3470,6 +3664,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: Player
+  Event: event:/SFX/Astronaut/AstronautDistressCall
+  PlayEvent: 1
+  StopEvent: 7
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 30.03
+--- !u!114 &1896988846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896988839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
   Event: event:/SFX/Astronaut/AstronautCollide
   PlayEvent: 7
   StopEvent: 0

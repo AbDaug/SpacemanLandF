@@ -39,13 +39,13 @@ MonoBehaviour:
   guid: 45a660329e797443943fe676eaf499d1
   Banks:
   - {fileID: 1715345750598529785}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 35683
 --- !u!114 &-8819035054871021431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,7 +266,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637541910913865578
+  lastModified: 637543432318177819
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -452,7 +452,7 @@ MonoBehaviour:
   - {fileID: 1715345750598529785}
   StringsBanks:
   - {fileID: -5879043736424218517}
-  stringsBankWriteTime: 637541910913865578
+  stringsBankWriteTime: 637543432318177819
   cacheVersion: 6
 --- !u!114 &495253648710067885
 MonoBehaviour:
@@ -581,7 +581,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637541910913855608
+  lastModified: 637543432318157865
   LoadResult: 0
   FileSizes: []
   Exists: 1
