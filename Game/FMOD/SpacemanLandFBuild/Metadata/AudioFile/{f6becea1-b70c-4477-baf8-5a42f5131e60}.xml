@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{f6becea1-b70c-4477-baf8-5a42f5131e60}">
 		<property name="assetPath">
-			<value>Other/EnterPauseMenu.wav</value>
+			<value>SFX/EnterPauseMenu.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

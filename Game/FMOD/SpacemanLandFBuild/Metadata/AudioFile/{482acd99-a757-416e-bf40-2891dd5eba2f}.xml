@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{482acd99-a757-416e-bf40-2891dd5eba2f}">
 		<property name="assetPath">
-			<value>459977__florianreichelt__soft-wind.mp3</value>
+			<value>OtherAmbience/459977__florianreichelt__soft-wind.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -4122,6 +4122,7 @@ MonoBehaviour:
   tiltPlay: event:/SFX/Ship/ShipTilt
   forwardPlay: event:/SFX/Ship/ShipForward
   backwardPlay: event:/SFX/Ship/ShipBackward
+  sidePlay: event:/SFX/Ship/ShipSideways
 --- !u!114 &1954235532
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,11 +14,14 @@ public class ShipSounds : MonoBehaviour
     public string forwardPlay;
     [FMODUnity.EventRef]
     public string backwardPlay;
+    [FMODUnity.EventRef]
+    public string sidePlay;
 
     //the event that will be played in code
     FMOD.Studio.EventInstance tiltEvent;
     FMOD.Studio.EventInstance forwardEvent;
     FMOD.Studio.EventInstance backwardEvent;
+    FMOD.Studio.EventInstance sideEvent;
 
     void Start()
     {
@@ -26,6 +29,7 @@ public class ShipSounds : MonoBehaviour
         tiltEvent = FMODUnity.RuntimeManager.CreateInstance(tiltPlay);
         forwardEvent = FMODUnity.RuntimeManager.CreateInstance(forwardPlay);
         backwardEvent = FMODUnity.RuntimeManager.CreateInstance(backwardPlay);
+        sideEvent = FMODUnity.RuntimeManager.CreateInstance(sidePlay);
     }
 
 
@@ -37,6 +41,7 @@ public class ShipSounds : MonoBehaviour
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(tiltEvent, GetComponent<Transform>(), GetComponent<Rigidbody>());
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(forwardEvent, GetComponent<Transform>(), GetComponent<Rigidbody>());
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(backwardEvent, GetComponent<Transform>(), GetComponent<Rigidbody>());
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(sideEvent, GetComponent<Transform>(), GetComponent<Rigidbody>());
 
         //method that controls which sound is played according to key presses (for now)
         Playsound();
@@ -55,19 +60,27 @@ public class ShipSounds : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W))
         {
-            forwardEvent.start(); //Test right now, sound not quite done
+            forwardEvent.start(); //ShipForward
         }
         if (Input.GetKeyUp(KeyCode.W))
         {
-            forwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, needs better fade
+            forwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, perhaps needs better fadeout
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            backwardEvent.start();
+            backwardEvent.start(); //ShipBackward
         }
         if (Input.GetKeyUp(KeyCode.S))
         {
-            backwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, needs better fade
+            backwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, perhaps needs better fade
+        }
+        if ((Input.GetKeyDown(KeyCode.A)) || (Input.GetKeyDown(KeyCode.D)))
+        {
+            sideEvent.start();
+        }
+        if ((Input.GetKeyUp(KeyCode.A)) || (Input.GetKeyUp(KeyCode.D)))
+        {
+            sideEvent.stop(STOP_MODE.ALLOWFADEOUT);
         }
     }
 }
