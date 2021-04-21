@@ -1,8 +1,8 @@
 # SpacemanLandF (Name Pending)
  
-* ***audio*** folder contains Reaper project, source sound files, and generated sound files
+* ***AUDIO*** folder contains TWO Reaper projects (regular and ambience), source sound files and generated sound files
 
-* ***documentation*** folder contains all necessary documentation for this project
+* ***DOCUMENTATION*** folder contains all necessary documentation for this project
 
 * ***Game/FMOD/gamename*** contains FMOD project
 
