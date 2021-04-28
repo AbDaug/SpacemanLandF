@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 45402447}
   m_Layer: 0
   m_Name: LowPolySpaceman (4)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 109960386}
   m_Layer: 0
   m_Name: LowPolySpaceman (3)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 429691095}
   m_Layer: 0
   m_Name: LowPolySpaceman (2)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 454517351}
   m_Layer: 0
   m_Name: LowPolySpaceman (5)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1473,7 +1473,7 @@ GameObject:
   - component: {fileID: 745802405}
   m_Layer: 0
   m_Name: LowPolySpaceman (7)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2611,7 +2611,7 @@ GameObject:
   - component: {fileID: 1121490818}
   m_Layer: 0
   m_Name: LowPolySpaceman (6)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2774,7 +2774,7 @@ GameObject:
   - component: {fileID: 1176865192}
   m_Layer: 0
   m_Name: LowPolySpaceman
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3571,7 +3571,7 @@ GameObject:
   - component: {fileID: 1896988845}
   m_Layer: 0
   m_Name: LowPolySpaceman (1)
-  m_TagString: Untagged
+  m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4008,9 +4008,10 @@ GameObject:
   - component: {fileID: 1954235531}
   - component: {fileID: 1954235530}
   - component: {fileID: 1954235532}
+  - component: {fileID: 1954235526}
   m_Layer: 0
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4033,6 +4034,18 @@ MonoBehaviour:
   lookRotSpeed: 50
   rollSpeed: 50
   rollAcc: 3.5
+--- !u!114 &1954235526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954235524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879ac1a4c53a4b2429c9158ce74d89f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1954235527
 MeshRenderer:
   m_ObjectHideFlags: 0
