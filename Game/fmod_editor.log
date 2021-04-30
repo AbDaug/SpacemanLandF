@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001C837A8E078 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002195A2134E8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,3 +16,219 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SoundI::release                          : MainMenuLoop (00000219BAAD36D8)
+[LOG] SoundI::release                          :     MainMenuLoop (00000219347B1098)
+[LOG] SoundI::release                          :     MainMenuLoop (00000219BAACE788)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='AstroDistressCall2', format=5, channels=2, frequency=48000, lengthbytes=31392, lengthpcm=196507, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.565581.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='AstroDistressCall4', format=5, channels=2, frequency=48000, lengthbytes=36416, lengthpcm=188502, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.743119.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ShipTilt', format=5, channels=2, frequency=48000, lengthbytes=13696, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.062400.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='DialogIntro', format=5, channels=2, frequency=48000, lengthbytes=172800, lengthpcm=654592, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.367092.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='AstroDistressCall1', format=5, channels=2, frequency=48000, lengthbytes=28160, lengthpcm=166654, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.615288.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ShipLoop', format=5, channels=2, frequency=48000, lengthbytes=92928, lengthpcm=384000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.320059.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05B08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='AstroDistressCall3', format=5, channels=2, frequency=48000, lengthbytes=28640, lengthpcm=180561, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.506355.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000021959F05D18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='CollectAstronaut', format=5, channels=2, frequency=48000, lengthbytes=19552, lengthpcm=86551, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.498128.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 970944
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 21568
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A6C8DEEFD8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF214A7B10
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF214A7AE0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF214A7BE0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF214A7CA0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002193294B2A8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='EnterPauseMenu', format=5, channels=2, frequency=48000, lengthbytes=13056, lengthpcm=24559, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.152184.
+[LOG] SoundI::release                          :  (00000219B6AD7B58)
+[LOG] SoundI::release                          :     AstroDistressCall1 (00000219328750D8)
+[LOG] SoundI::release                          :  (00000219B6ADA508)
+[LOG] SoundI::release                          :     AstroDistressCall2 (0000021932877158)
+[LOG] SoundI::release                          :  (00000219B6AD7FA8)
+[LOG] SoundI::release                          :     AstroDistressCall3 (0000021932874578)
+[LOG] SoundI::release                          :  (00000219B6ADAC38)
+[LOG] SoundI::release                          :     AstroDistressCall4 (0000021932877978)
+[LOG] SoundI::release                          :  (0000021935EED0E8)
+[LOG] SoundI::release                          :     EnterPauseMenu (00000219B70A94C8)
+[LOG] SoundI::release                          :  (00000219B6AD8848)
+[LOG] SoundI::release                          :     CollectAstronaut (00000219B70A7AC8)
+[LOG] SoundI::release                          :  (00000219BAFAA958)
+[LOG] SoundI::release                          :     MainMenuScatter (00000219347B28F8)
+[LOG] SoundI::release                          :  (00000219B6AD7598)
+[LOG] SoundI::release                          :     DialogIntro (0000021932877FF8)
+[LOG] SoundI::release                          :  (00000219BAFAA678)
+[LOG] SoundI::release                          :     StartGame (00000219347B2758)
+[LOG] SoundI::release                          :  (00000219B6ADADA8)
+[LOG] SoundI::release                          :     ShipTilt (0000021932877E58)
+[LOG] SoundI::release                          :  (00000219B6AD8568)
+[LOG] SoundI::release                          :     ShipLoop (0000021932878198)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

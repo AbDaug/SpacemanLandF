@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3260a645-799e-4374-943f-e676eaf499d1}">
 		<property name="name">
-			<value>SpaceAmbienceTODO</value>
+			<value>SpaceAmbience</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
