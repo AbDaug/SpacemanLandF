@@ -5,7 +5,14 @@ using UnityEngine;
 public class CollectAstronaut : MonoBehaviour
 {
 
-    private float counter = 0;
+    FMOD.Studio.EventInstance collection;
+
+    private int counter = 0;
+
+    void Start()
+    {
+        collection = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Astronaut/AstronautCollide");
+    }
 
     void Update()
     {
@@ -17,6 +24,8 @@ public class CollectAstronaut : MonoBehaviour
         {
             Application.Quit();
         }*/
+
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(collection, GetComponent<Transform>(), GetComponent<Rigidbody>());
     }
 
     void OnCollisionEnter(Collision other)
@@ -25,6 +34,8 @@ public class CollectAstronaut : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             counter++;
+            collection.setParameterByName("AstrosCollected", counter);  //IT WORKS OH MY GOD. A MIRACLE.
+            collection.start();
             Debug.Log("Counter = " + counter);
         }
 

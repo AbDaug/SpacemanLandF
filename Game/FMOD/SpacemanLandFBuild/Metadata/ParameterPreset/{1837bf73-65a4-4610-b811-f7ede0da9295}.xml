@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1837bf73-65a4-4610-b811-f7ede0da9295}">
+		<property name="name">
+			<value>AstrosCollected</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f6b1d0b4-0461-41c1-9622-a0e90d81ec64}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ce652cbb-7fdb-4fbd-a6a8-d9d7760aaee2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ce652cbb-7fdb-4fbd-a6a8-d9d7760aaee2}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>9</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
