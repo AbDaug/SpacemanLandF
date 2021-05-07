@@ -57,6 +57,10 @@ public class ShipSounds : MonoBehaviour
         {
             tiltEvent.start(); //ShipTilt
         }
+        if ((Input.GetKeyUp(KeyCode.Q)) || (Input.GetKeyUp(KeyCode.E)))
+        {
+            tiltEvent.stop(STOP_MODE.ALLOWFADEOUT); //ShipTilt
+        }
 
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -66,6 +70,7 @@ public class ShipSounds : MonoBehaviour
         {
             forwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, perhaps needs better fadeout
         }
+
         if (Input.GetKeyDown(KeyCode.S))
         {
             backwardEvent.start(); //ShipBackward
@@ -74,6 +79,7 @@ public class ShipSounds : MonoBehaviour
         {
             backwardEvent.stop(STOP_MODE.ALLOWFADEOUT); //a little short, perhaps needs better fade
         }
+
         if ((Input.GetKeyDown(KeyCode.A)) || (Input.GetKeyDown(KeyCode.D)))
         {
             sideEvent.start();
