@@ -33,6 +33,7 @@ public class CollectAstronaut : MonoBehaviour
         if(other.gameObject.tag == "Collectable")
         {
             other.gameObject.SetActive(false);
+            CounterScript.counterValue -= 1;   //changes counter in corner of screen
             counter++;
             collection.setParameterByName("AstrosCollected", counter);  //IT WORKS OH MY GOD. A MIRACLE.
             collection.start();
