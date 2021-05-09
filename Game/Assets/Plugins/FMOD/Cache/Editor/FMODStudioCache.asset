@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9193134404526983314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AstronautCollide/AstrosCollected
+  m_EditorClassIdentifier: 
+  Name: AstrosCollected
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-9147335745870933795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,7 +85,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 2721878573899475371}
+  - {fileID: -9193134404526983314}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -429,7 +449,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637560983336224887
+  lastModified: 637561776736830631
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -795,7 +815,7 @@ MonoBehaviour:
   - {fileID: 1715345750598529785}
   StringsBanks:
   - {fileID: -5879043736424218517}
-  stringsBankWriteTime: 637560983336224887
+  stringsBankWriteTime: 637561776736830631
   cacheVersion: 6
 --- !u!114 &476295128363788160
 MonoBehaviour:
@@ -944,7 +964,7 @@ MonoBehaviour:
   Path: FMOD/SpacemanLandFBuild/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637560983336204978
+  lastModified: 637561776736810393
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1121,6 +1141,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 754
   Exists: 1
+--- !u!114 &3100225617523126689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AstronautCollide/AstrosCollected
+  m_EditorClassIdentifier: 
+  Name: AstrosCollected
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &3803147369400403562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1272,6 +1312,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5541360394460910614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AstronautCollide/AstrosCollected
+  m_EditorClassIdentifier: 
+  Name: AstrosCollected
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &6764538221993549270
 MonoBehaviour:
   m_ObjectHideFlags: 0
